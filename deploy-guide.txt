@@ -1,0 +1,62 @@
+"🚀 QUICK DEPLOYMENT GUIDE FOR GITHUB PAGES
+================================================
+
+📋 STEP-BY-STEP INSTRUCTIONS:
+
+1. CREATE GITHUB REPOSITORY
+   ✅ Go to github.com and sign in
+   ✅ Click \"New\" (green button)
+   ✅ Repository name: your-username.github.io
+      (Replace \"your-username\" with your actual GitHub username)
+   ✅ Make it PUBLIC (important!)
+   ✅ Click \"Create repository\"
+
+2. UPLOAD YOUR FILES
+   ✅ In your new repository, click \"uploading an existing file\"
+   ✅ Drag and drop these files:
+      - index.html
+      - styles.css  
+      - script.js
+      - Your photo (rename it to: placeholder-photo.jpg)
+   ✅ Write commit message: \"Add portfolio website\"
+   ✅ Click \"Commit changes\"
+
+3. ENABLE GITHUB PAGES
+   ✅ Go to repository \"Settings\" tab
+   ✅ Scroll down to \"Pages\" section (left sidebar)
+   ✅ Under \"Source\", select \"Deploy from a branch\"
+   ✅ Branch: main (or master)
+   ✅ Folder: / (root)
+   ✅ Click \"Save\"
+
+4. ACCESS YOUR WEBSITE
+   ✅ Your website will be live at:
+      https://your-username.github.io
+   ✅ Wait 5-10 minutes for it to go live
+   ✅ Share this URL as your portfolio!
+
+📸 ADDING YOUR PHOTO:
+- Take a professional photo (square/portrait works best)
+- Rename it exactly to: placeholder-photo.jpg
+- Upload it with your other files
+- It will automatically replace the placeholder
+
+🎨 CUSTOMIZATION:
+- Edit index.html to update your information
+- Modify styles.css to change colors/design
+- All your CV information is already included!
+
+💡 PRO TIPS:
+- Keep your repository public for GitHub Pages to work
+- Use a professional email in your contact section
+- Update your publications regularly
+- Test the website on mobile devices
+
+🆘 NEED HELP?
+If something doesn't work:
+1. Check that your repository is PUBLIC
+2. Wait 10-15 minutes after setup
+3. Try accessing in an incognito/private browser window
+4. Make sure all filenames are exactly as specified
+
+✨ Your professional portfolio will be live and ready to share!"
