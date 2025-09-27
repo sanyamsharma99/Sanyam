@@ -23,11 +23,24 @@
             display: block;
             margin-top: 15px;
         }
+        .publications-list ol {
+            padding-left: 24px;
+        }
         .publication-item {
-            padding: 10px;
+            padding: 10px 0;
             border-bottom: 1px solid #eee;
             font-size: 1rem;
             margin-bottom: 5px;
+        }
+        .author-highlight {
+            background: #ffe066;
+            font-weight: bold;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+        /* Responsive image fallback */
+        @media screen and (max-width: 600px) {
+            .profile-img {width: 120px; height: 120px;}
         }
     </style>
 </head>
@@ -60,8 +73,8 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-image">
-                    <!-- Update the src below with your actual image path/file or use a placeholder for testing -->
-                    <img src="sanyam_profile.jpg" alt="Sanyam" class="profile-img">
+                    <!-- Replace the src below with your actual image file if desired -->
+                    <img src="https://via.placeholder.com/180" alt="Sanyam" class="profile-img">
                 </div>
                 <div class="hero-text">
                     <h1>Sanyam</h1>
@@ -177,28 +190,30 @@
             <h2 class="section-title">Publications</h2>
             <p class="section-subtitle">Selected research publications in peer-reviewed journals</p>
             <div class="publications-list">
-                <div class="publication-item"><strong>Sanyam, B. Das, and A. Mondal</strong> Accelerated Discovery of TADF Emitters via Physics-Guided Machine Learning of Excited-State Properties, JMCA-RSC, 2025</div>
-                <div class="publication-item"><strong>Sanyam, N. Tejiyan, and A. Mondal</strong> Carbazole-Linked Through-Space TADF Emitters for OLEDs: Tuning Photophysics via Molecular Architecture and Exciton Dynamics, RSC Materials Advances, 2025</div>
-                <div class="publication-item"><strong>Sanyam and A. Mondal</strong> Decoding Vibrational Contributions and Exciton Dynamics in TADF Emitters for Enhanced OLED Efficiency, ACS Applied Electronic Materials, 7, 4843, 2025</div>
-                <div class="publication-item"><strong>Sanyam and A. Mondal</strong> Multiscale Modeling of Charge Transfer in Hole-Transporting Materials: Linking Molecular Morphology to Charge Mobility, The Journal of Chemical Physics, 162, 184702, 2025</div>
-                <div class="publication-item"><strong>T. Gupta, Sanyam, S. Saraswat, A. Mondal, and B. Mondal</strong> Electrochemical Ammonia Oxidation with a Homogeneous Molecular Redox Mediator, Chemical Science, 2025</div>
-                <div class="publication-item"><strong>P. Kumar, T. Mishra, Sanyam, A. Mondal, and S. Basu</strong> Small Molecule Based On-Off-On AIEgen for Imaging Golgi Apparatus, ACS Applied Bio Materials, 8, 1524, 2025</div>
-                <div class="publication-item"><strong>A. Sharma, Yati, Sanyam, A. Mondal, S. Sharma, and A. Singhal</strong> CO2 Electroreduction Using Cu Supported Co3O4 Catalyst For Multi-Electron Product Formation via Metal Support Interaction, ChemNanoMat, e202500154, 2025</div>
-                <div class="publication-item"><strong>P. Kumar, T. Mishra, Sanyam, A. Mondal, and S. Basu</strong> Small molecule AIEgen for illuminating Golgi Apparatus, ChemBioChem-Wiley, 2025</div>
-                <div class="publication-item"><strong>Sanyam, Priyanshu Sorout, and Anirban Mondal</strong> Rational Design of Organic Emitters with Inverted Singlet-Triplet Gaps for Enhanced Exciton Management, Journal of Physical Chemistry A, 128, 7114, 2024</div>
-                <div class="publication-item"><strong>Deeksha Rajput, Sanyam, Priyanshu Sorout, Anirban Mondal, Sriram Kanvah</strong> From Molecule to Aggregate Understanding AIE through Multiscale Experimental and Computational Techniques, The Journal of Physical Chemistry B, 128, 12559, 2024, equal contribution</div>
-                <div class="publication-item"><strong>Aditi, Sanyam, J. Ingle, B. Das, A. Mondal, and S. Basu</strong> Imaging Golgi-Apparatus in Colon Cancer Cells by Small Molecule Hydrazone Fluorophore, ChemBioChem, 25, e202400507, 2024, equal contribution</div>
-                <div class="publication-item"><strong>A. Jain, S. Kumar, Sanyam, A. Mondal, and I. Gupta</strong> Sunlight Induced C-H Activation Reactions of Aromatic Heterocycles: First example of A3 and A2B type Corroles as Photoredox Catalysts, Journal of Catalysis, 438, 115705, 2024</div>
-                <div class="publication-item"><strong>S. Kumar, K. Agarwal, Sanyam, A. Mondal, and I. Gupta</strong> Harnessing Solar Power for Oxidation of Organic Compounds by Metal Dipyrrinato Complexes, Chemistry - An Asian Journal, 19, e202400680, 2024</div>
-                <div class="publication-item"><strong>T. Gupta, Yati, Sanyam, A. Mondal, and B. Mondal</strong> Molecular Electrochemical Mediator for Oxidative Multi-Site Proton Coupled Electron Transfer, ACS Catalysis, 14, 17690, 2024</div>
-                <div class="publication-item"><strong>Sanyam, Rudranarayan Khatua, Anirban Mondal</strong> Constructing Multiresonance Thermally Activated Delayed Fluorescence Emitters for Organic LEDs: A Computational Investigation, Journal of Physical Chemistry A, 127, 10393, 2023</div>
-                <div class="publication-item"><strong>Sanyam, Rudranarayan Khatua, Anirban Mondal</strong> A Cost-Effective Approach for Modeling of Multiresonant Thermally Activated Delayed Fluorescence Emitters, Journal of Chemical Theory and Computation, 19, 9290, 2023</div>
-                <div class="publication-item"><strong>Anu Jaanagal, Sanyam, Anirban Mondal, Iti Gupta</strong> Sustainable Approach for C-H Arylation of Heteroarenes Photocatalyzed by Zinc Porphyrins, The Journal of Organic Chemistry, 88, 9424, 2023</div>
-                <div class="publication-item"><strong>J. Ingle, S. Tat, S. Shinde, M. Kumar, Sanyam, A. Mondal, M. K. Santra, and S. Basu</strong> 3-Methoxy-pyrrole-Based Small Molecule Damages Mitochondria to Instigate Apoptosis in Breast Cancer Cells, ChemistrySelect, 8, e202300663, 2023</div>
-                <div class="publication-item"><strong>T. Mishra, P. Kumar, Sanyam, A. Mondal, and S. Basu</strong> Powerhouse Targeted Small Molecule-Mediated Chemo-Photodynamic Therapy Induces Apoptosis in Cancer Cells, under review RSC Advances</div>
-                <div class="publication-item"><strong>A. I. Siddiqui, Sanyam, R. Nain, A. Mondal, and B. Mondal</strong> Inverse Effect of Covalently Attached Electron Proton Transfer Mediator in Oxygen Reduction Reaction, under review Dalton-Transaction-RSC</div>
-                <div class="publication-item"><strong>C. Chauhan, Sanyam, R. Sewak, A. Mondal, and B. Mondal</strong> Combined Experimental and Theoretical Elucidation of PCET Pathways in Electrocatalytic Alcohol Oxidation Over CoNiOOH and Its Application in PET Upcycling, under review ACS Catalysis</div>
-                <div class="publication-item"><strong>G.P. Nanda, SK. Bahadur, R. Suraksha, Sanyam, A. Mondal, P. Rajamalli</strong> Hidden Thermally Activated Delayed Fluorescence: The Role of Molecular Flexibility on the Delayed Fluorescence Property, under review ACS Optical Materials</div>
+                <ol>
+                    <li class="publication-item"><strong><span class="author-highlight">Sanyam</span></strong>, B. Das, and A. Mondal Accelerated Discovery of TADF Emitters via Physics-Guided Machine Learning of Excited-State Properties, JMCA-RSC, 2025</li>
+                    <li class="publication-item"><strong><span class="author-highlight">Sanyam</span></strong>, N. Tejiyan, and A. Mondal Carbazole-Linked Through-Space TADF Emitters for OLEDs: Tuning Photophysics via Molecular Architecture and Exciton Dynamics, RSC Materials Advances, 2025</li>
+                    <li class="publication-item"><strong><span class="author-highlight">Sanyam</span></strong> and A. Mondal Decoding Vibrational Contributions and Exciton Dynamics in TADF Emitters for Enhanced OLED Efficiency, ACS Applied Electronic Materials, 7, 4843, 2025</li>
+                    <li class="publication-item"><strong><span class="author-highlight">Sanyam</span></strong> and A. Mondal Multiscale Modeling of Charge Transfer in Hole-Transporting Materials: Linking Molecular Morphology to Charge Mobility, The Journal of Chemical Physics, 162, 184702, 2025</li>
+                    <li class="publication-item"><strong>T. Gupta, <span class="author-highlight">Sanyam</span>, S. Saraswat, A. Mondal, and B. Mondal</strong> Electrochemical Ammonia Oxidation with a Homogeneous Molecular Redox Mediator, Chemical Science, 2025</li>
+                    <li class="publication-item"><strong>P. Kumar, T. Mishra, <span class="author-highlight">Sanyam</span>, A. Mondal, and S. Basu</strong> Small Molecule Based On-Off-On AIEgen for Imaging Golgi Apparatus, ACS Applied Bio Materials, 8, 1524, 2025</li>
+                    <li class="publication-item"><strong>A. Sharma, Yati, <span class="author-highlight">Sanyam</span>, A. Mondal, S. Sharma, and A. Singhal</strong> CO2 Electroreduction Using Cu Supported Co3O4 Catalyst For Multi-Electron Product Formation via Metal Support Interaction, ChemNanoMat, e202500154, 2025</li>
+                    <li class="publication-item"><strong>P. Kumar, T. Mishra, <span class="author-highlight">Sanyam</span>, A. Mondal, and S. Basu</strong> Small molecule AIEgen for illuminating Golgi Apparatus, ChemBioChem-Wiley, 2025</li>
+                    <li class="publication-item"><strong><span class="author-highlight">Sanyam</span></strong>, Priyanshu Sorout, and Anirban Mondal Rational Design of Organic Emitters with Inverted Singlet-Triplet Gaps for Enhanced Exciton Management, Journal of Physical Chemistry A, 128, 7114, 2024</li>
+                    <li class="publication-item"><strong>Deeksha Rajput, <span class="author-highlight">Sanyam</span>, Priyanshu Sorout, Anirban Mondal, Sriram Kanvah</strong> From Molecule to Aggregate Understanding AIE through Multiscale Experimental and Computational Techniques, The Journal of Physical Chemistry B, 128, 12559, 2024, equal contribution</li>
+                    <li class="publication-item"><strong>Aditi, <span class="author-highlight">Sanyam</span>, J. Ingle, B. Das, A. Mondal, and S. Basu</strong> Imaging Golgi-Apparatus in Colon Cancer Cells by Small Molecule Hydrazone Fluorophore, ChemBioChem, 25, e202400507, 2024, equal contribution</li>
+                    <li class="publication-item"><strong>A. Jain, S. Kumar, <span class="author-highlight">Sanyam</span>, A. Mondal, and I. Gupta</strong> Sunlight Induced C-H Activation Reactions of Aromatic Heterocycles: First example of A3 and A2B type Corroles as Photoredox Catalysts, Journal of Catalysis, 438, 115705, 2024</li>
+                    <li class="publication-item"><strong>S. Kumar, K. Agarwal, <span class="author-highlight">Sanyam</span>, A. Mondal, and I. Gupta</strong> Harnessing Solar Power for Oxidation of Organic Compounds by Metal Dipyrrinato Complexes, Chemistry - An Asian Journal, 19, e202400680, 2024</li>
+                    <li class="publication-item"><strong>T. Gupta, Yati, <span class="author-highlight">Sanyam</span>, A. Mondal, and B. Mondal</strong> Molecular Electrochemical Mediator for Oxidative Multi-Site Proton Coupled Electron Transfer, ACS Catalysis, 14, 17690, 2024</li>
+                    <li class="publication-item"><strong><span class="author-highlight">Sanyam</span></strong>, Rudranarayan Khatua, Anirban Mondal Constructing Multiresonance Thermally Activated Delayed Fluorescence Emitters for Organic LEDs: A Computational Investigation, Journal of Physical Chemistry A, 127, 10393, 2023</li>
+                    <li class="publication-item"><strong><span class="author-highlight">Sanyam</span></strong>, Rudranarayan Khatua, Anirban Mondal A Cost-Effective Approach for Modeling of Multiresonant Thermally Activated Delayed Fluorescence Emitters, Journal of Chemical Theory and Computation, 19, 9290, 2023</li>
+                    <li class="publication-item"><strong>Anu Jaanagal, <span class="author-highlight">Sanyam</span>, Anirban Mondal, Iti Gupta</strong> Sustainable Approach for C-H Arylation of Heteroarenes Photocatalyzed by Zinc Porphyrins, The Journal of Organic Chemistry, 88, 9424, 2023</li>
+                    <li class="publication-item"><strong>J. Ingle, S. Tat, S. Shinde, M. Kumar, <span class="author-highlight">Sanyam</span>, A. Mondal, M. K. Santra, and S. Basu</strong> 3-Methoxy-pyrrole-Based Small Molecule Damages Mitochondria to Instigate Apoptosis in Breast Cancer Cells, ChemistrySelect, 8, e202300663, 2023</li>
+                    <li class="publication-item"><strong>T. Mishra, P. Kumar, <span class="author-highlight">Sanyam</span>, A. Mondal, and S. Basu</strong> Powerhouse Targeted Small Molecule-Mediated Chemo-Photodynamic Therapy Induces Apoptosis in Cancer Cells, under review RSC Advances</li>
+                    <li class="publication-item"><strong>A. I. Siddiqui, <span class="author-highlight">Sanyam</span>, R. Nain, A. Mondal, and B. Mondal</strong> Inverse Effect of Covalently Attached Electron Proton Transfer Mediator in Oxygen Reduction Reaction, under review Dalton-Transaction-RSC</li>
+                    <li class="publication-item"><strong>C. Chauhan, <span class="author-highlight">Sanyam</span>, R. Sewak, A. Mondal, and B. Mondal</strong> Combined Experimental and Theoretical Elucidation of PCET Pathways in Electrocatalytic Alcohol Oxidation Over CoNiOOH and Its Application in PET Upcycling, under review ACS Catalysis</li>
+                    <li class="publication-item"><strong>G.P. Nanda, SK. Bahadur, R. Suraksha, <span class="author-highlight">Sanyam</span>, A. Mondal, P. Rajamalli</strong> Hidden Thermally Activated Delayed Fluorescence: The Role of Molecular Flexibility on the Delayed Fluorescence Property, under review ACS Optical Materials</li>
+                </ol>
             </div>
         </div>
     </section>
