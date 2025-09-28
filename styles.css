@@ -84,7 +84,6 @@ body {
 }
 
 .nav-toggle {
-    display: none;
     flex-direction: column;
     cursor: pointer;
 }
@@ -132,7 +131,6 @@ body {
     object-fit: cover;
     border: 6px solid #1e40af;
     box-shadow: 0 20px 40px rgba(30, 64, 175, 0.1);
-    display: none; /* Hidden until user adds photo */
 }
 
 .img-placeholder {
